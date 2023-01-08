@@ -1,13 +1,14 @@
 [tool.poetry]
-name = "simple-plugin-nautobot"
+name = "sample-plugin-nautobot"
 version = "0.1.0"
 description = "first plugin for nautbot"
 authors = ["Iran Alyf <iranalyf2222@gmail.com>"]
 readme = "README.md"
-packages = [{include = "simple_plugin_nautobot"}]
+packages = [{include = "sample_plugin_nautobot"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+nautobot = "^1.5.7"
 
 
 [build-system]
